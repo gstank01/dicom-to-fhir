@@ -1,0 +1,42 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://hospital.sim/mrn",
+      "value": "7" // Replace with a ID from DICOM SR file
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "MaleHypertrophy",
+      "given": ["Test"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1970-04-10",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/bodyWeight",
+      "valueQuantity": {
+        "value": 85,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/bodyHeight",
+      "valueQuantity": {
+        "value": 175,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  ]
+}
+
+
+

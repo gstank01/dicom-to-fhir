@@ -1,0 +1,128 @@
+{
+  "Left Atrial Volume": {
+    "code": "38244-3",
+    "system": "http://loinc.org",
+    "display": "Left atrium Volume"
+  },
+  "Left Ventricular Mass Index by Echocardiography": {
+  "code": "76482-9",
+  "system": "http://loinc.org",
+  "display": "Left Ventricular Mass Index by Echocardiography"
+  },
+  "Aortic Valve Area": {
+    "code": "18842-5",
+    "system": "http://loinc.org",
+    "display": "Aortic valve area"
+  },
+  "Pulmonary Artery Systolic Pressure": {
+    "code": "8569-0",
+    "system": "http://loinc.org",
+    "display": "Pulmonary artery Systolic pressure"
+  },
+  "Right Ventricular Systolic Pressure": {
+    "code": "8867-4",
+    "system": "http://loinc.org",
+    "display": "Right Ventricular Systolic Pressure"
+  },
+  "Mitral Valve Peak Gradient": {
+    "code": "28632-5",
+    "system": "http://loinc.org",
+    "display": "Mitral Valve Peak Gradient"
+  },
+  "Tricuspid Regurgitation Peak Gradient": {
+    "code": "28583-0",
+    "system": "http://loinc.org",
+    "display": "Tricuspid Regurgitation Peak Gradient"
+  },
+  "Aortic Valve Peak Velocity": {
+    "code": "11525-3",
+    "system": "http://loinc.org",
+    "display": "Aortic Valve Peak Velocity"
+  },
+  "Septal E' Velocity": {
+    "code": "55113-2",
+    "system": "http://loinc.org",
+    "display": "Mitral annulus septal (E') tissue velocity"
+  },
+  "Lateral E' Velocity": {
+    "code": "55114-0",
+    "system": "http://loinc.org",
+    "display": "Mitral annulus lateral (E') tissue velocity"
+  },
+  "Left Ventricular End-Diastolic Volume": {
+    "code": "18026-9",
+    "system": "http://loinc.org",
+    "display": "Left Ventricular End-Diastolic Volume"
+  },
+  "Left Ventricular End-Systolic Volume": {
+    "code": "18027-7",
+    "system": "http://loinc.org",
+    "display": "Left Ventricular End-Systolic Volume"
+  },
+  "Stroke Volume": {
+    "code": "8860-0",
+    "system": "http://loinc.org",
+    "display": "Stroke Volume"
+  },
+  "Heart Rate": {
+    "code": "8867-4",
+    "system": "http://loinc.org",
+    "display": "Heart rate"
+  },
+  "Ejection Time": {
+    "code": "46034-8",
+    "system": "http://loinc.org",
+    "display": "Ejection Time"
+  },
+  "IVS Thickness End-Diastole": {
+    "code": "18124-2",
+    "system": "http://loinc.org",
+    "display": "Interventricular septum thickness in diastole"
+  },
+  "LVPW Thickness End-Diastole": {
+    "code": "18096-2",
+    "system": "http://loinc.org",
+    "display": "Left ventricular posterior wall thickness in diastole"
+  },
+  "Aortic Root Diameter": {
+    "code": "18026-9",
+    "system": "http://loinc.org",
+    "display": "Aortic Root Diameter"
+  },
+  "Left Atrial Diameter": {
+    "code": "18029-3",
+    "system": "http://loinc.org",
+    "display": "Left Atrial Diameter"
+  },
+
+  "Right Atrium Systolic Pressure": {
+    "code": "76215-3",
+    "system": "http://loinc.org",
+    "display": "Right Atrium Systolic Pressure"
+  },
+  "Deceleration Time ": {
+    "code": "76536-2",
+    "system": "http://loinc.org",
+    "display": "Deceleration Time "
+  },
+  "Left Ventricular Ejection Fraction": {
+    "code": "8806-2",
+    "system": "http://loinc.org",
+    "display": "Left Ventricular Ejection Fraction"
+  },
+  "Interventricular Septum Diastolic Thickness": {
+    "code": "76400-1",
+    "system": "http://loinc.org",
+    "display": "IVSd"
+  },
+  "Left Ventricle Posterior Wall Diastolic Thickness": {
+    "code": "76403-5",
+    "system": "http://loinc.org",
+    "display": "PWd"
+  },
+  "Left Atrium Antero-posterior Systolic Dimension": {
+    "code": "8618-1",
+    "system": "http://loinc.org",
+    "display": "Left Atrium AP Systolic Dimension"
+  }
+}
