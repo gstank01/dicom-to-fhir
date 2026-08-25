@@ -33,6 +33,7 @@ async function fetchPatient() {
         if (patient.address && patient.address.length > 0) {
             const addr = patient.address[0];
             address = `${addr.line ? addr.line.join(', ') : ''}, ${addr.city || ''}, ${addr.state || ''}`;
+            postcode = addr.postalCode || 'N/A';
         }
 
         // Update the HTML text elements
@@ -40,6 +41,8 @@ async function fetchPatient() {
         document.getElementById('p-dob').innerText = dob;
         document.getElementById('p-mrn').innerText = mrn;
         document.getElementById('p-address').innerText = address;
+        document.getElementById('p-postcode').innerText = postcode;
+
 
         // Reveal the updated patient card
         loading.classList.add('hidden');
