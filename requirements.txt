@@ -1,0 +1,4 @@
+#Important Note: It is critical to include the [crypto] flag for PyJWT. 
+#This ensures the cryptography module is installed, which your script requires to perform the RSA signing for your client assertion.
+requests==2.31.0
+PyJWT[crypto]==2.8.0
