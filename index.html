@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Lookup</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Patient Lookup</h2>
+    
+    <div class="search-container">
+        <label for="patientId">Enter MRN / Identifier:</label>
+        <input type="text" id="patientId" placeholder="e.g., 12345">
+        <button onclick="fetchPatient()">Search</button>
+    </div>
+
+    <div id="loading" class="hidden"><p>Loading...</p></div>
+    <div id="error" class="error-text hidden"></div>
+
+    <div id="patientCard" class="card hidden">
+        <h3>Patient Details</h3>
+        <p><strong>Name:</strong> <span id="p-name"></span></p>
+        <p><strong>DOB:</strong> <span id="p-dob"></span></p>
+        <p><strong>MRN:</strong> <span id="p-mrn"></span></p>
+        <p><strong>Address:</strong> <span id="p-address"></span></p>
+        
+        <hr>
+        <div id="cqlDataContainer">
+            <em>Additional CQL data will load here...</em>
+        </div>
+    </div>
+
+    <!-- Your JS logic goes here (or in a separate app.js file!) -->
+    <script>
+        // (Insert the fetchPatient() JavaScript function here)
+    </script>
+</body>
+</html>
