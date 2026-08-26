@@ -1,0 +1,7 @@
+{
+    "chat.mcp.gallery.enabled": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+}
